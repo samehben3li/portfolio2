@@ -1,5 +1,4 @@
 import "./portfolio.css"
-import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
@@ -23,12 +22,12 @@ const Portfolio = () => {
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
-          <img src={ IMG2 } alt="" />
+          <img src="/assets/quizapp.png" alt="" />
         </div>
-        <h3>This is a porfolio item title</h3>
+        <h3>The Knower Quiz App</h3>
         <div className="cta">
-          <a href="https://github.com/" rel="noreferrer" className="btn" target="_blank">Github</a>
-          <a href="https://github.com/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/samehben3li/quiz-app-react-js.git" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://quiz-knower.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
       <article className="portfolio__item">
