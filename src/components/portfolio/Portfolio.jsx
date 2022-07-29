@@ -76,6 +76,16 @@ const Portfolio = () => {
           <a href="https://knowerclock.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
+      <article className="portfolio__item">
+        <div className="portfolio__item-img">
+          <img src="/assets/tic-tac-toe.png"alt="" />
+        </div>
+        <h3>Tic-Tac-Toe - React JS</h3>
+        <div className="cta">
+          <a href="https://github.com/samehben3li/tac-tac-toe-react-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://theknower-toe.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+      </article>
     </div>
   </section>
   )
