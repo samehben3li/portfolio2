@@ -1,5 +1,4 @@
 import "./portfolio.css"
-import IMG4 from "../../assets/portfolio4.jpg"
 import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.jpg"
 
@@ -41,12 +40,12 @@ const Portfolio = () => {
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
-          <img src={ IMG4 } alt="" />
+          <img src="/assets/social-media.png" alt="" />
         </div>
-        <h3>This is a porfolio item title</h3>
+        <h3>The Knower Social</h3>
         <div className="cta">
-          <a href="https://github.com/" rel="noreferrer" className="btn" target="_blank">Github</a>
-          <a href="https://github.com/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/samehben3li/social-media-mern-stack" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://knowersocial.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
       <article className="portfolio__item">
