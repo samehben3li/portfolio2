@@ -66,6 +66,16 @@ const Portfolio = () => {
           <a href="https://knowerbooking.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
+      <article className="portfolio__item">
+        <div className="portfolio__item-img">
+          <img src="/assets/clock-react.png"alt="" />
+        </div>
+        <h3>Digital Clock - React JS</h3>
+        <div className="cta">
+          <a href="https://github.com/samehben3li/digital-clock-with-react-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://knowerclock.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+      </article>
     </div>
   </section>
   )
