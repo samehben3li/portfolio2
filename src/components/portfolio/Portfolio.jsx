@@ -48,12 +48,12 @@ const Portfolio = () => {
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
-          <img src="/assets/movie-web-html-css-js.png" alt="" />
+          <img src="/assets/cmrc.png" alt="" />
         </div>
-        <h3>TheKower-MV</h3>
+        <h3>TheKower-CMRC</h3>
         <div className="cta">
-          <a href="https://github.com/samehben3li/MoviesWebSite-html-css-js" rel="noreferrer" className="btn" target="_blank">Github</a>
-          <a href="https://theknower-mv.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/samehben3li/e-commerce-html-css-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://ecm-tn.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
       <article className="portfolio__item">
@@ -84,6 +84,16 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/tac-tac-toe-react-js" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://theknower-toe.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+      </article>
+      <article className="portfolio__item">
+        <div className="portfolio__item-img">
+          <img src="/assets/movie-web-html-css-js.png" alt="" />
+        </div>
+        <h3>TheKower-MV</h3>
+        <div className="cta">
+          <a href="https://github.com/samehben3li/MoviesWebSite-html-css-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://theknower-mv.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
     </div>
