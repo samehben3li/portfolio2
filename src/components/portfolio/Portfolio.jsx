@@ -1,5 +1,4 @@
 import "./portfolio.css"
-import IMG5 from "../../assets/portfolio5.png"
 import IMG6 from "../../assets/portfolio6.jpg"
 
 const Portfolio = () => {
@@ -50,12 +49,12 @@ const Portfolio = () => {
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
-          <img src={ IMG5 } alt="" />
+          <img src="/assets/movie-web-html-css-js.png" alt="" />
         </div>
-        <h3>This is a porfolio item title</h3>
+        <h3>TheKower-MV</h3>
         <div className="cta">
-          <a href="https://github.com/" rel="noreferrer" className="btn" target="_blank">Github</a>
-          <a href="https://github.com/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/samehben3li/MoviesWebSite-html-css-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://theknower-mv.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
       <article className="portfolio__item">
