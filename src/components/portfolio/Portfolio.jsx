@@ -1,5 +1,4 @@
 import "./portfolio.css"
-import IMG6 from "../../assets/portfolio6.jpg"
 
 const Portfolio = () => {
   return (
@@ -59,12 +58,12 @@ const Portfolio = () => {
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
-          <img src={ IMG6 } alt="" />
+          <img src="/assets/booking.png"alt="" />
         </div>
-        <h3>This is a porfolio item title</h3>
+        <h3>TheKnower Booking</h3>
         <div className="cta">
-          <a href="https://github.com/" rel="noreferrer" className="btn" target="_blank">Github</a>
-          <a href="https://github.com/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/samehben3li/booking" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://knowerbooking.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
     </div>
