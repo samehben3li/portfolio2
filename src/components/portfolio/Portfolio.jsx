@@ -96,6 +96,16 @@ const Portfolio = () => {
           <a href="https://theknower-mv.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
+      <article className="portfolio__item">
+        <div className="portfolio__item-img">
+          <img src="/assets/cmrc-mern.png" alt="" />
+        </div>
+        <h3>TheKower-Shop</h3>
+        <div className="cta">
+          <a href="https://github.com/samehben3li/e-commerce-mern-stack" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://theknowershop.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+      </article>
     </div>
   </section>
   )
