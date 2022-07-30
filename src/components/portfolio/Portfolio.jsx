@@ -116,6 +116,26 @@ const Portfolio = () => {
           <a href="https://knowerclock.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
       </article>
+      <article className="portfolio__item">
+        <div className="portfolio__item-img">
+          <img src="/assets/portfolio-html.png"alt="" />
+        </div>
+        <h3>Personnal Portfolio - HTML/CSS/JS</h3>
+        <div className="cta">
+          <a href="https://github.com/samehben3li/My-Portfolio" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://samehbn3li.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+      </article>
+      <article className="portfolio__item">
+        <div className="portfolio__item-img">
+          <img src="/assets/Screenshot from 2022-07-30 11-16-10.png"alt="" />
+        </div>
+        <h3>Sidebar - HTML/CSS/JS</h3>
+        <div className="cta">
+          <a href="https://github.com/samehben3li/sidebar-html5-scss-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://incomparable-brioche-2645f1.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+      </article>
     </div>
   </section>
   )
