@@ -1,23 +1,23 @@
-header{
+header {
     height: 100vh;
     padding-top: 2rem;
     overflow: hidden;
 }
 
-.header__container{
+.header__container {
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-.cta{
+.cta {
     margin-top: 1rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 
-.header__socials{
+.header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,26 +27,33 @@ header{
     bottom: 3rem;
 }
 
-.header__socials::after{
+.header__socials::after {
     content: "";
     width: 1px;
     height: 2rem;
     background: var(--color-primary);
 }
 
-.me{
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+.me {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 3px 3px 15px var(--color-primary), -3px -3px 15px var(--color-primary);
 }
 
-.scroll__down{
+.me>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -56,17 +63,18 @@ header{
 }
 
 @media screen and (max-width: 1024px) {
-    header{
-        height: 68vh;
+    .me {
+        width: 18rem;
+        height: 18rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    header{
+    header {
         height: 100vh;
     }
-
-    .header__socials, .scroll__down{
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
