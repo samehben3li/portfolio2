@@ -1,4 +1,6 @@
 import "./portfolio.css"
+import { SiMongodb,SiExpress, SiJavascript } from "react-icons/si"
+import { FaReact, FaNodeJs, FaCss3Alt, FaHtml5 } from "react-icons/fa"
 
 const Portfolio = () => {
   return (
@@ -15,6 +17,18 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/Blog-App" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://theknowerblog.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><SiMongodb /></span>
+              <span className="tech__icon"><SiExpress /></span>
+              <span className="tech__icon"><FaReact /></span>
+              <span className="tech__icon"><FaNodeJs /></span>
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -24,6 +38,15 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/quiz-app-react-js.git" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://quiz-knower.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaReact /></span>
+            </div>
+          </div>
         </div>
       </article>
       <article className="portfolio__item">
@@ -35,6 +58,17 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/digitalclock" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://theknowerclock.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaHtml5 /></span>
+              <span className="tech__icon"><FaCss3Alt /></span>
+              <span className="tech__icon"><SiJavascript /></span>
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -44,6 +78,18 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/social-media-mern-stack" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://knowersocial.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><SiMongodb /></span>
+              <span className="tech__icon"><SiExpress /></span>
+              <span className="tech__icon"><FaReact /></span>
+              <span className="tech__icon"><FaNodeJs /></span>
+            </div>
+          </div>
         </div>
       </article>
       <article className="portfolio__item">
@@ -55,6 +101,17 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/e-commerce-html-css-js" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://ecm-tn.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaHtml5 /></span>
+              <span className="tech__icon"><FaCss3Alt /></span>
+              <span className="tech__icon"><SiJavascript /></span>
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -64,6 +121,18 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/booking" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://knowerbooking.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              {/* <span className="tech__icon"><SiMongodb /></span>
+              <span className="tech__icon"><SiExpress /></span> */}
+              <span className="tech__icon"><FaReact /></span>
+              {/* <span className="tech__icon"><FaNodeJs /></span> */}
+            </div>
+          </div>
         </div>
       </article>
       <article className="portfolio__item">
@@ -75,6 +144,18 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/youtube-mern" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://sameh-tube.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              {/* <span className="tech__icon"><SiMongodb /></span>
+              <span className="tech__icon"><SiExpress /></span> */}
+              <span className="tech__icon"><FaReact /></span>
+              {/* <span className="tech__icon"><FaNodeJs /></span> */}
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -84,6 +165,18 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/tac-tac-toe-react-js" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://theknower-toe.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              {/* <span className="tech__icon"><SiMongodb /></span>
+              <span className="tech__icon"><SiExpress /></span> */}
+              <span className="tech__icon"><FaReact /></span>
+              {/* <span className="tech__icon"><FaNodeJs /></span> */}
+            </div>
+          </div>
         </div>
       </article>
       <article className="portfolio__item">
@@ -95,6 +188,17 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/MoviesWebSite-html-css-js" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://theknower-mv.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaHtml5 /></span>
+              <span className="tech__icon"><FaCss3Alt /></span>
+              <span className="tech__icon"><SiJavascript /></span>
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -104,6 +208,18 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/e-commerce-mern-stack" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://theknowershop.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              {/* <span className="tech__icon"><SiMongodb /></span>
+              <span className="tech__icon"><SiExpress /></span> */}
+              <span className="tech__icon"><FaReact /></span>
+              {/* <span className="tech__icon"><FaNodeJs /></span> */}
+            </div>
+          </div>
         </div>
       </article>
       <article className="portfolio__item">
@@ -115,6 +231,15 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/digital-clock-with-react-js" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://knowerclock.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaReact /></span>
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -125,6 +250,17 @@ const Portfolio = () => {
           <a href="https://github.com/samehben3li/My-Portfolio" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://samehbn3li.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaHtml5 /></span>
+              <span className="tech__icon"><FaCss3Alt /></span>
+              <span className="tech__icon"><SiJavascript /></span>
+            </div>
+          </div>
+        </div>
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
@@ -134,6 +270,17 @@ const Portfolio = () => {
         <div className="cta">
           <a href="https://github.com/samehben3li/sidebar-html5-scss-js" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://incomparable-brioche-2645f1.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+        </div>
+        <div className="desc__container">
+          <div className="desc__wrapper">
+            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <h4 className="tech__title">Techs used in the project:</h4>
+            <div className="tech__icons">
+              <span className="tech__icon"><FaHtml5 /></span>
+              <span className="tech__icon"><FaCss3Alt /></span>
+              <span className="tech__icon"><SiJavascript /></span>
+            </div>
+          </div>
         </div>
       </article>
     </div>

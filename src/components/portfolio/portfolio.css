@@ -1,46 +1,102 @@
-.portfolio__container{
+.portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
 
-.portfolio__item{
+.portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    position: relative;
+    overflow: hidden;
 }
 
-.portfolio__item:hover{
+.portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
 
-.portfolio__item-img{
+.desc__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c2c6ca9;
+    backdrop-filter: blur(15px);
+    border-radius: 2rem;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.desc__wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    top: 70%;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+.portfolio__item:hover .desc__container {
+    opacity: 1;
+}
+
+.portfolio__item:hover .desc__wrapper {
+    top: 0;
+    opacity: 1;
+}
+
+.desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;
+}
+
+.tech__icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tech__icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--color-primary);
+    transition: all 0.5s ease;
+}
+
+.tech__icon:hover {
+    color: var(--color-white);
+}
+
+.portfolio__item-img {
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
-.portfolio__item h3{
+.portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }
 
-.cta{
+.cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
-    .portfolio__container{
+    .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .portfolio__container{
+    .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
