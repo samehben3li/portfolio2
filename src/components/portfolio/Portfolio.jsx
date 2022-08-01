@@ -19,7 +19,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>TheKnower Blog</b> is web application created with react framework as a front-end, node and express js as a backend communicating using RestAPI and store data using MongoDB . </p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><SiMongodb /></span>
@@ -41,7 +41,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>TheKnower Quiz</b> is single page application represent quiz game .</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaReact /></span>
@@ -60,7 +60,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>Digital Clock</b> represent design of clock with awesome color and animation .</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaHtml5 /></span>
@@ -81,7 +81,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>Theknower social</b> is social media network web applicaton, it contains Home , profile, settings and post page and notification and friend management fonctionnalite .</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><SiMongodb /></span>
@@ -103,7 +103,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>TheKnower-CMRC</b> represent design of e-commerce web site with awesome landing page and animation (slider).</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaHtml5 /></span>
@@ -124,7 +124,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>TheKnower Booking</b> represent design of reserve hotel handler it contains landing, search and hotel page . I will integrate back-end later.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               {/* <span className="tech__icon"><SiMongodb /></span>
@@ -139,14 +139,14 @@ const Portfolio = () => {
         <div className="portfolio__item-img">
           <img src="/assets/sameh-tube.png"alt="" />
         </div>
-        <h3>Sameh - Tube</h3>
+        <h3>SamehTube</h3>
         <div className="cta">
           <a href="https://github.com/samehben3li/youtube-mern" rel="noreferrer" className="btn" target="_blank">Github</a>
           <a href="https://sameh-tube.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>SamehTube</b> represente design of YouTube web application contains home, video and auth page , I will integrate back-end later.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               {/* <span className="tech__icon"><SiMongodb /></span>
@@ -168,7 +168,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>Tic-Tac-Toe</b> is a simple game web application on browser .</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               {/* <span className="tech__icon"><SiMongodb /></span>
@@ -190,7 +190,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>TheKnower-MV</b> represent design of movie web site with awesome animation.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaHtml5 /></span>
@@ -211,7 +211,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>TheKnower-Shop</b> is e-commerce web application created with MERN stack and i will integrate part of back-end later.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               {/* <span className="tech__icon"><SiMongodb /></span>
@@ -233,7 +233,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>Digital Clock</b> represent design of clock created with react js with awesome color.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaReact /></span>
@@ -252,7 +252,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>Personnal Portfolio </b> represent design template of portfolio.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaHtml5 /></span>
@@ -273,7 +273,7 @@ const Portfolio = () => {
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc">Tnfeed is fullstack MERN social network web app created with the well known react framework NextJs, the backend and the frontend are separated and communicating using RestAPI.</p>
+            <p className="desc"><b>Sidebar</b> design of sidebar contains select mode handler.</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaHtml5 /></span>
