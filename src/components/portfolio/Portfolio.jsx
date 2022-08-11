@@ -264,16 +264,16 @@ const Portfolio = () => {
       </article>
       <article className="portfolio__item">
         <div className="portfolio__item-img">
-          <img src="/assets/Screenshot from 2022-07-30 11-16-10.png"alt="" />
+          <img src="/assets/quiz-app-js.png"alt="" />
         </div>
-        <h3>Sidebar - HTML/CSS/JS</h3>
+        <h3>quiz - HTML/CSS/JS</h3>
         <div className="cta">
-          <a href="https://github.com/samehben3li/sidebar-html5-scss-js" rel="noreferrer" className="btn" target="_blank">Github</a>
-          <a href="https://incomparable-brioche-2645f1.netlify.app/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://github.com/samehben3li/quiz-app-js" rel="noreferrer" className="btn" target="_blank">Github</a>
+          <a href="https://samehben3li.github.io/quiz-app-js/" rel="noreferrer" className="btn btn-primary" target="_blank">Live Demo</a>
         </div>
         <div className="desc__container">
           <div className="desc__wrapper">
-            <p className="desc"><b>Sidebar</b> design of sidebar contains select mode handler.</p>
+            <p className="desc"><b>quiz app </b> is single page application and responsive represent quiz game .</p>
             <h4 className="tech__title">Techs used in the project:</h4>
             <div className="tech__icons">
               <span className="tech__icon"><FaHtml5 /></span>
