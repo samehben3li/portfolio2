@@ -2,7 +2,6 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
-import emailjs from "emailjs-com";
 import { useRef } from "react";
 
 const Contact = () => {
@@ -10,23 +9,6 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_byy3j5m",
-        "template_wr5ro09",
-        form.current,
-        "GBu0JBt40KfsB2xcD"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
   };
 
   return (
